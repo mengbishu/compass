@@ -74,9 +74,10 @@ namespace QMC5883L {
     /**
      * .
      */
+     //%
     export enum Oversampling { 
-        //%blockId=aa block="OS512"
-        aa = QMC5883L_CONFIG_OS512,
+        //% block="OS512"
+        _OS512 = QMC5883L_CONFIG_OS512,
         //% block="OS256"
         _OS256 = QMC5883L_CONFIG_OS256,
         //% block="OS128"

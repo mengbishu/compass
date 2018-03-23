@@ -1,4 +1,12 @@
 {
-    "QMC5883L.Oversampling.aa|block": "初始化指南针"
- 
+    "QMC5883L.Oversampling._OS512|block": "初始化指南针",
+    "QMC5883L.QMC5883L_getData|block": "从指南针读取数据",
+    "QMC5883L.QMC5883L_setOversampling|block": "设置过采样倍数 %index",
+    "QMC5883L.QMC5883L_setSamplingRate|block": "设置采样速率 %index",
+    "QMC5883L.QMC5883L_setRange|block": "设置测量范围（磁场强度） %index",
+    "QMC5883L.QMC5883L_calibration|block": "校准电子罗盘（水平旋转一周）",
+    "QMC5883L.QMC5883L_x|block": "X轴原始数据",
+    "QMC5883L.QMC5883L_y|block": "Y轴原始数据",
+    "QMC5883L.QMC5883L_z|block": "Z轴原始数据",
+    "QMC5883L.yaw|block": "指南针朝向(°)"
 }
