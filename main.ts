@@ -42,16 +42,6 @@ const QMC5883L_CONFIG_200HZ = 12
 const QMC5883L_CONFIG_STANDBY = 0
 const QMC5883L_CONFIG_CONT = 1
 
-enum Oversampling { 
-        //% block="OS512"
-        _OS512 = QMC5883L_CONFIG_OS512,
-        //% block="OS256"
-        _OS256 = QMC5883L_CONFIG_OS256,
-        //% block="OS128"
-        _OS128 = QMC5883L_CONFIG_OS128,
-        //% block="OS64"
-        _OS64 = QMC5883L_CONFIG_OS64
-    }
 
 /**
  *This is DFRobot: the electronic compass user control library.
@@ -84,7 +74,16 @@ namespace QMC5883L {
     /**
      * .
      */
-    
+    export enum Oversampling { 
+        //%blockId=_OS512 block="OS512"
+        _OS512 = QMC5883L_CONFIG_OS512,
+        //% block="OS256"
+        _OS256 = QMC5883L_CONFIG_OS256,
+        //% block="OS128"
+        _OS128 = QMC5883L_CONFIG_OS128,
+        //% block="OS64"
+        _OS64 = QMC5883L_CONFIG_OS64
+    }
 
     /**
      * .
