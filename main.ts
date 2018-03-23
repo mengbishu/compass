@@ -41,7 +41,8 @@ const QMC5883L_CONFIG_200HZ = 12
 //Mode values for the CONFIG register
 const QMC5883L_CONFIG_STANDBY = 0
 const QMC5883L_CONFIG_CONT = 1
-export enum Oversampling { 
+
+enum Oversampling { 
         //% block="OS512"
         _OS512 = QMC5883L_CONFIG_OS512,
         //% block="OS256"
