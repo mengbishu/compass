@@ -1,0 +1,20 @@
+{
+    "name": "Compass",
+    "version": "0.0.0",
+    "description": "Magnetic Senso rCmps11",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "radio": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts",
+        "QMC5883L.cpp",
+        "_locales/zh/QMC5883L-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": false
+}
